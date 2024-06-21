@@ -1,0 +1,101 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: #4e4d4d;
+    background-image: url(background/7ae8f5fa3818386d1b841990e1b23d49.jpg);
+  }
+  
+  main {
+    max-width: 50rem;
+    margin: 10rem auto;
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    background-color: #0d2c2d;
+    border-radius: 2px;
+   
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: azure;
+    margin: 0;
+    padding-bottom: 3rem;
+  }
+  
+  section {
+    background-color: #c2df91;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: 0 1.6rem;
+    border-radius: 1px;
+    box-shadow: inset 0 2px 2px lightgray;
+  }
+  
+  section > div {
+    padding: 1.6rem 0;
+  }
+  
+  .bill {
+    display: flex;
+    
+  }
+  .bill label {
+    flex: 1;
+    align-self: center;
+  }
+  .bill input {
+    flex: 3;
+  }
+  
+  input[type="number"] {
+    font-family: inherit;
+    background: #9bd3b1;
+    font-size: 1.6rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    padding: 0.8rem 0 0.8rem 1rem;
+    
+  }
+  
+  .space-between {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .range {
+    
+    width: 100%;
+    height: 8px;
+    margin-top: 1.2rem;
+    background: #4c8963;
+    border-radius: 0.3rem;
+    outline-color: #5bceae;
+  }
+  
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
+  }
+  
+  .range::-moz-range-thumb {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background: #3dc0c0;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  .range::-moz-focus-outer {
+    border: 0;
+  }
